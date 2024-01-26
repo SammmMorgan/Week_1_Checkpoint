@@ -17,5 +17,20 @@ main {
 }
 
 .othertree {
-    flex-shrink: inherit;
+    object-fit: contain;
+    object-position: bottom;
+    width: fit-content;
+}
+
+.fontwhite {
+    font-family: 'Amatic SC', sans-serif;
+    color: antiquewhite;
+    text-shadow: 1px 1px 0 black;
+}
+
+.fontblack {
+    font-family: 'Amatic SC', sans-serif;
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0 white;
 }
