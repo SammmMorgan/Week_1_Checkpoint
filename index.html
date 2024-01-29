@@ -17,14 +17,14 @@
 </head>
 
 <body class="debug">
+    <div class="d-flex bg-success sticky-top fontblack">
+        <i class="mdi mdi-leaf fs-2"></i>
+        <h1>Leafland</h1>
+    </div>
     <header>
-        <div class="d-flex bg-success sticky fontblack">
-            <i class="mdi mdi-leaf fs-2"></i>
-            <h1>Leafland</h1>
-        </div>
         <section class="container-fluid">
             <div class="row d-flex tree img-fluid">
-                <div class="col-4 p-4">
+                <div class="col-12 col-md-4 p-4">
                     <div class="card text-center">
                         <img class="card-img-top" src="holder.js/100px180/" alt="" />
                         <div class="card-body">
@@ -59,7 +59,7 @@
                     </div>
 
                 </div>
-                <div class="col-8 alignc fontwhite">
+                <div class="col-8 alignc fontwhite d-none d-md-block">
                     <p class="fs-3 alignc"> These are Plants!
                     </p>
                     <p class="headertext fs-4">plants are honestly pretty cool dudes. and theres all kinds of plants,
@@ -75,7 +75,7 @@
     <main>
         <section class="container-fluid">
             <div class="row">
-                <div class="col-6 py-5">
+                <div class="col-12 col-md-6 py-5 order-2 order-md-1">
                     <p class="fs-1 fontblack">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
@@ -84,18 +84,22 @@
                         obcaecati voluptatum sequi dolor, voluptate dignissimos maxime ex itaque eaque quidem totam nam
                         perferendis nulla facere!</p>
                 </div>
-                <div class="col-6">
-                    <div class="card text-center floatcard">
+                <div class="col-12 col-md-6 order-1 order-md-1 py-3">
+                    <div class="card text-center floatcard floatcardx">
                         <div class="card-body">
-                            <h4 class="card-title alignrightdamnit">These Plants are Pretty Neat!!!</h4>
-                            <p class="card-text alignrightdamnit "> <i class="mdi mdi-leaf"></i> This plant likes the
+                            <h4 class="card-title alignrightdamnit fontwhite">These Plants are Pretty Neat!!!</h4>
+                            <p class="card-text alignrightdamnit fontwhite "> <i class="mdi mdi-leaf"></i> This plant
+                                likes the
                                 sunlight!</p>
-                            <p class="card-text alignrightdamnit"> <i class="mdi mdi-leaf"></i> This plant likes its
+                            <p class="card-text alignrightdamnit fontwhite"> <i class="mdi mdi-leaf"></i> This plant
+                                likes its
                                 fungus friends!</p>
-                            <p class="card-text alignrightdamnit"> <i class="mdi mdi-leaf"></i> This plant wishes you
+                            <p class="card-text alignrightdamnit fontwhite"> <i class="mdi mdi-leaf"></i> This plant
+                                wishes you
                                 would just die
                                 already!</p>
-                            <p class="card-text alignrightdamnit"> <i class="mdi mdi-leaf"></i> This plant is just happy
+                            <p class="card-text alignrightdamnit fontwhite"> <i class="mdi mdi-leaf"></i> This plant is
+                                just happy
                                 to be here!</p>
                         </div>
                     </div>
@@ -117,11 +121,14 @@
                         perspiciatis
                         possimus et provident voluptatum quisquam nisi incidunt, voluptas natus cupiditate aliquid
                         sapiente delectus inventore nam! Quis, veritatis.</p>
-                    <button type="button" class="btn btn-success"> Plant! </button>
+                    <div class="text-end">
+
+                        <button type="button" class="btn btn-success"> Plant! </button>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-4">
+            <div class="row d-flex floatcardx">
+                <div class="col-12 col-md-4 order-md-2 py-5 d-flex align-items-center">
                     <div class="card text-center">
                         <h2><i class="mdi mdi-leaf"></i> <i class="mdi mdi-leaf-maple"></i> <i class="mdi mdi-leaf"></i>
                         </h2>
@@ -133,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 order-md-1 py-5 d-flex align-items-md-center">
                     <div class="card text-center">
                         <h2><i class="mdi mdi-leaf"></i> <i class="mdi mdi-leaf-maple"></i> <i class="mdi mdi-leaf"></i>
                         </h2>
@@ -144,7 +151,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4 order-md-3 py-5 d-flex align-items-md-center">
                     <div class="card text-center">
                         <h2><i class="mdi mdi-leaf"></i> <i class="mdi mdi-leaf-maple"></i> <i class="mdi mdi-leaf"></i>
                         </h2>
@@ -159,10 +166,14 @@
         </section>
     </main>
 
-    <footer>
-        <p class="fs-1"> Grass and other plants are also cool.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste numquam fugiat atque modi sequi consequuntur.
-        </p>
+    <footer class="text-center bg-security">
+        <p class="fs-1 fontblack"> Grass and other plants are also cool.</p>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste numquam fugiat atque modi sequi
+                consequuntur.
+
+            </p>
+        </div>
     </footer>
 
 
